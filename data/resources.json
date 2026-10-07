@@ -1,0 +1,208 @@
+{
+  "resources": [
+    {
+      "name": "CVUSA (standard subset)",
+      "primary_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.html",
+      "modalities": "Ground / overhead RGB",
+      "supported_task": "Cross-view matching"
+    },
+    {
+      "name": "CVACT",
+      "primary_source": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Lending_Orientation_to_Neural_Networks_for_Cross-View_Geo-Localization_CVPR_2019_paper.pdf",
+      "modalities": "Ground panoramas / overhead RGB",
+      "supported_task": "Cross-view matching"
+    },
+    {
+      "name": "University-1652",
+      "primary_source": "https://arxiv.org/abs/2002.12186",
+      "modalities": "Satellite / synthetic drone / ground RGB",
+      "supported_task": "Multi-view place retrieval"
+    },
+    {
+      "name": "VIGOR",
+      "primary_source": "https://arxiv.org/abs/2011.12172",
+      "modalities": "Panoramas / overlapping overhead RGB",
+      "supported_task": "Retrieval and metric offset"
+    },
+    {
+      "name": "SUES-200",
+      "primary_source": "https://arxiv.org/abs/2204.10704",
+      "modalities": "Real drone RGB / satellite RGB",
+      "supported_task": "Height-dependent retrieval"
+    },
+    {
+      "name": "DenseUAV",
+      "primary_source": "https://github.com/Dmmm1997/DenseUAV",
+      "modalities": "Real drone RGB / satellite RGB",
+      "supported_task": "Low-altitude self-localization"
+    },
+    {
+      "name": "UAV-VisLoc",
+      "primary_source": "https://arxiv.org/abs/2405.11936",
+      "modalities": "Real nadir UAV RGB / satellite maps",
+      "supported_task": "UAV map localization"
+    },
+    {
+      "name": "VPAIR",
+      "primary_source": "https://arxiv.org/abs/2205.11567",
+      "modalities": "Aircraft RGB / reference render / depth",
+      "supported_task": "Place recognition and 6-DoF pose"
+    },
+    {
+      "name": "GTA-UAV",
+      "primary_source": "https://arxiv.org/abs/2409.16925",
+      "modalities": "Game-rendered UAV / overhead RGB",
+      "supported_task": "Partial-overlap map localization"
+    },
+    {
+      "name": "MMGeo",
+      "primary_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Ji_MMGeo_Multimodal_Compositional_Geo-Localization_for_UAVs_ICCV_2025_paper.html",
+      "modalities": "RGB / point cloud / depth / text",
+      "supported_task": "Compositional geo-localization"
+    },
+    {
+      "name": "OrthoLoC",
+      "primary_source": "https://arxiv.org/abs/2509.18350",
+      "modalities": "UAV RGB / orthophoto / DSM / point maps",
+      "supported_task": "6-DoF pose and calibration"
+    },
+    {
+      "name": "CrossLoc",
+      "primary_source": "https://crossloc.github.io/",
+      "modalities": "Real / rendered RGB; geometry; semantics",
+      "supported_task": "Sim-to-real absolute pose"
+    },
+    {
+      "name": "UAVD4L",
+      "primary_source": "https://arxiv.org/abs/2401.05971",
+      "modalities": "Real / synthetic RGB; 3D model; sensor data",
+      "supported_task": "6-DoF aerial localization"
+    },
+    {
+      "name": "GeoText-1652",
+      "primary_source": "https://github.com/MultimodalGeo/GeoText-1652",
+      "modalities": "Drone / satellite RGB and text",
+      "supported_task": "Language-assisted geo-localization"
+    },
+    {
+      "name": "RefDrone",
+      "primary_source": "https://arxiv.org/abs/2502.00392",
+      "modalities": "Aerial RGB; expressions; object boxes",
+      "supported_task": "Referring-expression grounding"
+    },
+    {
+      "name": "UAVScenes",
+      "primary_source": "https://arxiv.org/abs/2507.22412",
+      "modalities": "Camera / LiDAR / semantics / pose",
+      "supported_task": "Multimodal perception and localization"
+    },
+    {
+      "name": "Mid-Air",
+      "primary_source": "https://midair.ulg.ac.be/",
+      "modalities": "RGB / depth / semantics / IMU / pose",
+      "supported_task": "State estimation under appearance change"
+    },
+    {
+      "name": "Dronescapes",
+      "primary_source": "https://arxiv.org/abs/2308.07615",
+      "modalities": "Real aerial video; semantics; depth / normals",
+      "supported_task": "Multi-task aerial understanding"
+    },
+    {
+      "name": "ClaraVid",
+      "primary_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Beche_ClaraVid_A_Holistic_Scene_Reconstruction_Benchmark_From_Aerial_Perspective_With_ICCV_2025_paper.html",
+      "modalities": "Synthetic RGB / depth / panoptic / point clouds",
+      "supported_task": "Holistic aerial reconstruction"
+    },
+    {
+      "name": "AeroBench (Aero-World)",
+      "primary_source": "https://arxiv.org/abs/2605.19728",
+      "modalities": "FPV video / synchronized IMU",
+      "supported_task": "Motion-conditioned future observation"
+    },
+    {
+      "name": "UrbanVideo-Bench",
+      "primary_source": "https://aclanthology.org/2025.acl-long.1558/",
+      "modalities": "Real / simulated UAV video; questions",
+      "supported_task": "Embodied video reasoning"
+    },
+    {
+      "name": "SpatialSky",
+      "primary_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Is_your_VLM_Sky-Ready_A_Comprehensive_Spatial_Intelligence_Benchmark_for_CVPR_2026_paper.html",
+      "modalities": "RGB / LiDAR-derived spatial QA",
+      "supported_task": "Spatial perception and reasoning"
+    },
+    {
+      "name": "AVDN",
+      "primary_source": "https://aclanthology.org/2023.findings-acl.190/",
+      "modalities": "Overhead views / navigation dialogs",
+      "supported_task": "Aerial vision-and-dialog navigation"
+    },
+    {
+      "name": "AerialVLN",
+      "primary_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_AerialVLN_Vision-and-Language_Navigation_for_UAVs_ICCV_2023_paper.html",
+      "modalities": "Simulated aerial RGB-D / instructions",
+      "supported_task": "Instruction-following navigation"
+    },
+    {
+      "name": "CityNav",
+      "primary_source": "https://arxiv.org/abs/2406.14240",
+      "modalities": "City-derived scenes / language / geographic context",
+      "supported_task": "Geographic-goal navigation"
+    },
+    {
+      "name": "OpenFly",
+      "primary_source": "https://arxiv.org/abs/2502.18041",
+      "modalities": "Aerial images / instructions / trajectories",
+      "supported_task": "Aerial VLN across rendering sources"
+    },
+    {
+      "name": "TravelUAV / UAV-Need-Help",
+      "primary_source": "https://openreview.net/forum?id=rUvCIvI4eB",
+      "modalities": "Multi-view RGB / instructions / guidance",
+      "supported_task": "Continuous UAV target navigation"
+    },
+    {
+      "name": "UAV-ON",
+      "primary_source": "https://arxiv.org/abs/2508.00288",
+      "modalities": "Multi-view RGB-D / semantic object goals",
+      "supported_task": "Aerial object-goal navigation"
+    },
+    {
+      "name": "BEDI",
+      "primary_source": "https://arxiv.org/abs/2505.18229",
+      "modalities": "UAV perception / tools / planning / action tasks",
+      "supported_task": "Multi-capability agent benchmark"
+    },
+    {
+      "name": "HaL-13k / AeroDuo",
+      "primary_source": "https://arxiv.org/abs/2508.15232",
+      "modalities": "Synchronized high / low UAV RGB / LiDAR / text",
+      "supported_task": "Dual-altitude collaborative navigation"
+    },
+    {
+      "name": "Waterberry Farms",
+      "primary_source": "https://arxiv.org/abs/2305.06243",
+      "modalities": "Simulated humidity / disease fields and samples",
+      "supported_task": "Informative single / multi-robot sensing"
+    },
+    {
+      "name": "FloodNet",
+      "primary_source": "https://arxiv.org/abs/2012.02951",
+      "modalities": "UAV post-flood RGB / labels",
+      "supported_task": "Local disaster understanding"
+    },
+    {
+      "name": "Sen1Floods11",
+      "primary_source": "https://github.com/cloudtostreet/Sen1Floods11",
+      "modalities": "Satellite SAR / optical reference / flood labels",
+      "supported_task": "Regional flood mapping"
+    },
+    {
+      "name": "Agriculture-Vision",
+      "primary_source": "https://arxiv.org/abs/2001.01306",
+      "modalities": "Aerial RGB / NIR / pattern masks",
+      "supported_task": "Agricultural pattern segmentation"
+    }
+  ]
+}
